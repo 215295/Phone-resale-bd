@@ -1,12 +1,26 @@
 import React from 'react';
-import Banner from '../Banner/Banner';
+import Categories from '../Categories/Categories';
+import ExtraSection from '../ExtraSection/ExtraSection';
+import HomeBennar from '../HomeBennar/HomeBennar';
+
+
+
 
 
 const Home = () => {
+
+    //   const productsItems = useLoaderData()
+         
+    
     return (
         <div className='mx-5'>
-            <Banner></Banner>
-          
+            
+             <HomeBennar></HomeBennar>
+              
+             <Categories></Categories>
+             <ExtraSection></ExtraSection>
+
+                  
         </div>
     );
 };
