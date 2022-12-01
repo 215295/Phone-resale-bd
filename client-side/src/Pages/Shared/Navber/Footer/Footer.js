@@ -5,8 +5,9 @@ import { FaGoogle, FaTwitter, FaYoutube,  } from 'react-icons/fa';
 
 const Footer = () => {
     return (
+      
      
-      <div className=" p-10 bg-gray-900  text-white ">
+      <div className=" p-10 bg-gray-900  text-white container ">
 
     
      <footer className="footer pb-5" >
@@ -44,6 +45,7 @@ const Footer = () => {
                 <p>Copyright © 2022 - All right reserved by ABC Market Industries Ltd</p>
             </div>
         </div>
+       
     );
 };
 
