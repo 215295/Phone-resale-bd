@@ -7,15 +7,15 @@ const Footer = () => {
     return (
       
      
-      <div className=" p-10 bg-gray-900  text-white container ">
+      <div className=" p-10 bg-black  text-white container ">
 
     
      <footer className="footer pb-5" >
-     <span className='pt-2 gap-5  my-3 d-flex flex-lg-row   justify-center align-center ' > 
+     <span className='pt-2 gap-5  my-3 d-flex flex-lg-row   justify-center align-center text-emerald-700 ' > 
                     
-                    <FaGoogle className='me-2 fs-3 text-white '  />
-                     <FaYoutube className='me-2 fs-3 text-white'/>
-                     <FaTwitter className=' fs-4 text-white' />
+                    <FaGoogle className='me-2 fs-3  '  />
+                     <FaYoutube className='me-2 fs-3 '/>
+                     <FaTwitter className=' fs-4 ' />
                     </span>
  
   <div>
