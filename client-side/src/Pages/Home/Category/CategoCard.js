@@ -17,7 +17,7 @@ const CategoCard = ({secondhand,setProductAllData}) => {
        <p className='ml-7 font-bold'> Location : {location} </p>
        <p className='ml-7 font-bold'>  Resale Price: ${resalePrice} </p>
        <p className='ml-7  font-bold'> Original Price : ${originalPrice} </p>
-       <p className='ml-7 font-bold'> Youre : {years} </p>
+       <p className='ml-7 font-bold'> Years : {years} </p>
        <p className='ml-7 font-bold'> PostTime : {postTime? postTime:'no time' } </p>
       
        
@@ -45,3 +45,4 @@ export default CategoCard;
 
 
     
+// ads
