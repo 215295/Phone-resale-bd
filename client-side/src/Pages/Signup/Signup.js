@@ -57,7 +57,7 @@ const Signup = () => {
           
         }
         
-         fetch('https://car-resale-server-ten.vercel.app/users',{
+         fetch(' https://server-side-215295.vercel.app/users',{
 
           method: 'POST',
           headers:{

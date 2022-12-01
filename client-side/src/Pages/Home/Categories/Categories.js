@@ -5,7 +5,7 @@ import CategoriCard from './CategoriCard';
 
 const Categories = () => {
 
-    const url = 'https://car-resale-server-ten.vercel.app/categories'
+    const url = ' https://server-side-215295.vercel.app/categories'
 
     const {data:categories = [],isLoading } = useQuery({
           

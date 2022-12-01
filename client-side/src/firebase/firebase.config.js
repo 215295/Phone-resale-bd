@@ -13,6 +13,16 @@ const firebaseConfig = {
   appId:process.env.REACT_APP_appId
 };
 
+
+// const firebaseConfig = {
+//   apiKey: "AIzaSyATGCapNW1zFidswWpGuVyaMgLx6f3lauc",
+//   authDomain: "phoneresale-d68dc.firebaseapp.com",
+//   projectId: "phoneresale-d68dc",
+//   storageBucket: "phoneresale-d68dc.appspot.com",
+//   messagingSenderId: "355088733579",
+//   appId: "1:355088733579:web:d1c2f31e41701e56774b8e"
+// };
+
 // Initialize Firebase
 const app = initializeApp(firebaseConfig);
 export default app

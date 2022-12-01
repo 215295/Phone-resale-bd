@@ -37,7 +37,7 @@ const ProductBooking = ({productAllData,cancalModal}) => {
       }
 
       console.log(booking)
-      fetch('https://car-resale-server-ten.vercel.app/bookings',{
+      fetch(' https://server-side-215295.vercel.app/bookings',{
 
         method: 'POST',
         headers:{

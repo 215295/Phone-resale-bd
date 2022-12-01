@@ -1,6 +1,6 @@
 import axios from 'axios';
 import React, {  useEffect, useState } from 'react';
-import ProductCard from './ProductCard';
+import ProductCard from './MyProductCard';
 
 const MyProduct = () => {
        
@@ -9,7 +9,7 @@ const MyProduct = () => {
       
        useEffect(()=>{
           
-        axios.get('https://car-resale-server-ten.vercel.app/sellerProducts')
+        axios.get(' https://server-side-215295.vercel.app/sellerProducts')
           .then(data => {
                return setProducts(data.data)
           });

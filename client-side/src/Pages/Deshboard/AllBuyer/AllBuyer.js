@@ -9,7 +9,7 @@ const AllBuyer = () => {
         queryKey:['buyers'],
         queryFn:async()=>{
 
-            const res = await fetch('https://car-resale-server-ten.vercel.app/buyers',{
+            const res = await fetch(' https://server-side-215295.vercel.app/buyers',{
 
              
             })
@@ -21,7 +21,7 @@ const AllBuyer = () => {
 
      const buyerDelete=id =>{
 
-        fetch(`https://car-resale-server-ten.vercel.app/buyers/${id}`,{
+        fetch(` https://server-side-215295.vercel.app/buyers/${id}`,{
             method:'DELETE',
          })
          .then(res => res.json())

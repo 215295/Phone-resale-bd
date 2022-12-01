@@ -3,13 +3,13 @@ import React from 'react';
 const CategoCard = ({secondhand,setProductAllData}) => {
    
    
-         const { img, productName,sellerName, resalePrice,originalPrice,postTime, location,years} = secondhand
+         const { imge, productName,sellerName, resalePrice,originalPrice,postTime, location,years} = secondhand
 
 
     return (
         <div className='mb-5 mt-3'>
          <div className="card card-compact h-[400px]  bg-base-200 flex justify-between  shadow-xl">
-         <figure><img className='mt-9' src={img} alt="Shoes" /></figure>
+         <figure><img className='mt-9' src={imge} alt="Shoes" /></figure>
       <div className="card-body">
        <div className='grid justify-items-start '>
        <p className='ml-7 font-bold'> SellerName: {sellerName}</p>

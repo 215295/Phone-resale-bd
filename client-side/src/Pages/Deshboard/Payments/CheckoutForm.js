@@ -13,7 +13,7 @@ const CheckoutForm = ({bookingProduct}) => {
 
     useEffect(() => {
      
-        fetch("https://car-resale-server-ten.vercel.app/create-payment-intent", {
+        fetch(" https://server-side-215295.vercel.app/create-payment-intent", {
           method: "POST",
           headers: {
              "content-type": "application/json",
@@ -82,7 +82,7 @@ const CheckoutForm = ({bookingProduct}) => {
                   price
               }
 
-              fetch('https://car-resale-server-ten.vercel.app/payments',{
+              fetch(' https://server-side-215295.vercel.app/payments',{
                 
                 method:'POST',
                 headers:{
