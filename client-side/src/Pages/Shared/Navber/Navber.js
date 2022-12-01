@@ -18,7 +18,7 @@ const Navber = () => {
     }
     
     return (
-        <div className="navbar bg-base-200 flex justify-between">
+        <div className="navbar text-fuchsia-500 bg-stone-800 flex justify-between">
         <div className="navbar-start">
           <div className="dropdown">
             <label tabIndex={0} className="btn btn-ghost lg:hidden">
@@ -41,7 +41,7 @@ const Navber = () => {
             </ul>
           </div>
          
-          <Link to='/' className="btn btn-ghost normal-case text-xl "> Cars Resale </Link>
+          <Link to='/' className="btn btn-ghost normal-case text-xl "> PhoneResale </Link>
         </div>
         <div className="navbar-center hidden lg:flex ">
           <ul className="menu menu-horizontal p-0  ">
