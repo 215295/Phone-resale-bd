@@ -1,6 +1,8 @@
 
 # Website Name phone Resale
- ## Webwite live and netlify link : 
+ ## Webwite live and netlify link : https://phoneresale-d68dc.web.app
+ ##admin email:sumonasad04717@gmail.com
+ ##adminPassword:1417731796
  
  #  Website description : 
   * first create react app instal and react router 
