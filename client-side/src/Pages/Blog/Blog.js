@@ -31,7 +31,7 @@ const Blog = () => {
 
   <div className="card card-side bg-orange-200 mt-5 w-full shadow-xl">
       <div className="card-body">
-      <div className=' '>
+      <div className=' grid justify-items-start'>
       <h2 className=" font-bold mt-2 text-xl text-justify "> 3 . What is a unit test? Why should we write unit tests?</h2>
       <h2 className=" text-2xl grid justify-start "> Unit testing is a software development process in which the smallest testable parts of an application, 
       called units, are individually and independently scrutinized for proper operation. This testing methodology is done during the development process by the software developers and sometimes QA staff.  The main objective of unit testing is to isolate 
