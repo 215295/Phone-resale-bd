@@ -43,7 +43,7 @@ const DeshboardLayout = () => {
       {
           isBuyer && 
           <li><Link to='/deshboard/myOrders'> My Orders</Link></li> 
-      },
+      }
 
 
            

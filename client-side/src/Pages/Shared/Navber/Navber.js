@@ -33,7 +33,7 @@ const Navber = () => {
               user?.uid? <>
                 <li><Link to='/deshboard' >Deshboard</Link></li>
                 
-                   <li> <Link to='/login' > <button onClick={handlarUserLogout}>Sign out</button> </Link> </li>            
+                   <li> <Link to='/login' > <button onClick={handlarUserLogout}>LogOut</button> </Link> </li>            
                </>
                    :<li><Link to="/login">Login</Link></li>
           }

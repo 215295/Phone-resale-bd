@@ -15,7 +15,7 @@ const ProductCard = ({product}) => {
       <p className='ml-7 font-bold'> Location : {location} </p>
       <p className='ml-7 font-bold'>  Resale Price: $ {resalePrice} </p>
       <p className='ml-7  font-bold'> Original Price : $ {originalPrice} </p>
-      <p className='ml-7 font-bold'> Youre : {years} </p>
+      <p className='ml-7 font-bold'> Year : {years} </p>
       <p className='ml-7 font-bold'> PostTime : {PostTime? PostTime:'no time' } </p>
        </div>
      

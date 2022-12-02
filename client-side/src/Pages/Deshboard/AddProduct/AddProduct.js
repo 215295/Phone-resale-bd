@@ -180,9 +180,9 @@ const AddProduct = () => {
               <span className="label-text text-1xl"> Choose is Category?</span>
               </label>
               <select type='text' {...register("category" ,{required:true} )}  placeholder='Please Category select'  className="select select-bordered w-full max-w-xs">
-              <option>microbus</option>
-              <option>Lexsery car</option>
-              <option> electic car </option>
+              <option>Symphone</option>
+              <option>Nokia</option>
+              <option> Apple </option>
               { errors.category && <p className='text-red-600' >{errors.category.message} </p> }
            </select>
           

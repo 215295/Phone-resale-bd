@@ -126,7 +126,7 @@ const Login = () => {
       <input type="submit" className='btn  w-full border-none hover:text-gray-100 bg-gradient-to-r from-emerald-500 to-indigo-500 text-white mt-3' value="Login" />
     </form>
 
-          <p className='mt-3 mb-4'> New go to  <Link to='/signup' className='text-green-500' > Create New Accout</Link> </p>
+          <p className='mt-3 mb-4'> Now go to  <Link to='/signup' className='text-green-500' > Create New Accout</Link> </p>
     
           
             <button onClick={handlarGoogleLoing}  className='btn btn-outline btn-primary w-full'><FaGoogle className='mr-3' />    CONTINUE WITH GOOGLE</button>
