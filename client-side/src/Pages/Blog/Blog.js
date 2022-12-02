@@ -17,7 +17,7 @@ const Blog = () => {
   </div>
 
  
-  <div className="card card-side bg-indigo-300 mt-5 w-full shadow-xl">
+  <div className="card card-side bg-orange-200 mt-5 w-full shadow-xl">
       <div className="card-body">
       <div className=' grid justify-items-start'>
       <h2 className=" font-bold mt-2 text-xl text-justify "> 2 . How does prototypical inheritance work?</h2>
