@@ -6,8 +6,8 @@ const CategoriCard = ({product}) => {
       
     return (
         <div className=' '>
-         <div className="card card-compact h-[400px]  bg-base-100 shadow-xl">
-         <figure><img src={img} className='mt-5' alt="Shoes" /></figure>
+         <div className="card card-compact h-[400px]  bg-orange-300 justify-between shadow-xl">
+         <figure><img src={img} className=' w-full rounded ' alt="phone" /></figure>
       <div className="card-body">
     <h2 className="card-title"> Title : {name} </h2>
     <p> </p>

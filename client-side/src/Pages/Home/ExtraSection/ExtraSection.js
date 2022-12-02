@@ -7,10 +7,10 @@ const ExtraSection = () => {
         <div className="hero-content  flex-col lg:flex-row">
        <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQWaLSOJHeyrmPL0d6mjjJEpFcXiXNncAtjSxSL04iMpn-NZfx36JFv0gPtE3oyZRQVSUk&usqp=CAU" alt='' className=" lg:w-1/2 md:w-full h-80 rounded-lg shadow-2xl" />
        <div className='lg:w-1/2 md:w-full'>
-         <h1 className="text-3xl font-bold mb-4">Resale Value of Your Car</h1>
-         <p className="font-bold text-justify">If you looking to save on a used car, trading in your vehicle can help. Trade-in value is the price a dealer would offer for your car, which can go towards the cost of purchasing another car they have in stock. It is usually close to how much the vehicle would sell for at an auction. However, dealers can offer a higher amount if the vehicle is more desirable.
-          There are many simple online tools for determining how much your car is worth. These can help decide on whether to sell or trade-in  and get the best deal.</p>
-         <button className="btn btn-primary mt-9">Readding</button>
+         <h1 className="text-3xl font-bold mb-4">Resale Value of Your Phones</h1>
+         <p className="font-bold text-justify">Here are a few effective tips that can lead to a positive buying experience for you with less likelihood of a second hand or refurbished purchase gone horribly ...
+.</p>
+         <button className="btn btn-primary mt-9">About</button>
        </div>
      </div>
    </div>

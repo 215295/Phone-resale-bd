@@ -5,7 +5,7 @@ import React from 'react';
 const Advertised = ({productsItems}) => {
          
           
-           const { img,ProductName, resalePrice,originalPrice,postTime, location,year,phone,decrip} =productsItems
+           const { img,ProductName, resalePrice,originalPrice,PostTime, location,year,phone,decrip} =productsItems
  
     return (
         <div>
@@ -23,8 +23,8 @@ const Advertised = ({productsItems}) => {
       <p className='ml-7 font-bold'> Location : {location} </p>
       <p className='ml-7 font-bold'>  Resale Price: {resalePrice}Tk </p>
       <p className='ml-7  font-bold'> Original Price : {originalPrice} </p>
-      <p className='ml-7 font-bold'> Youre : {year} </p>
-      <p className='ml-7 font-bold'> PostTime : {postTime? postTime:'no time' } </p>
+      <p className='ml-7 font-bold'> Year : {year} </p>
+      <p className='ml-7 font-bold'> PostTime : {PostTime? PostTime:'no time' } </p>
        </div>
      
       </div>

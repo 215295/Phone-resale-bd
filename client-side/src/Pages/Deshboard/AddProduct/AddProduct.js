@@ -45,7 +45,7 @@ const AddProduct = () => {
                      phone:data.phone,
                      decripe:data.decripe,
                      img:imaData.data.url,
-                     postTime:today,
+                     PostTime:today,
                      category:data.category
              }
     

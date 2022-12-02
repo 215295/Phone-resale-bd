@@ -32,7 +32,7 @@ const MyOrders = () => {
     
        
     return (
-        <div>
+        <div className=''>
 
      <h1 className='text-3xl mt-3'> My Orders </h1>
     <div className="overflow-x-auto">

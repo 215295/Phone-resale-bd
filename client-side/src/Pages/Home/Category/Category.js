@@ -5,6 +5,7 @@ import CategoCard from './CategoCard';
 
 const Category = () => {
     const secondhanProducts = useLoaderData()
+    console.log(secondhanProducts)
  
     const [productAllData, setProductAllData] = useState(null)
     
