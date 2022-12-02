@@ -1,6 +1,6 @@
 
-# Website Name Cars Resale
- ## Webwite live and netlify link : (https://car-resale-49076.web.app/) 
+# Website Name phone Resale
+ ## Webwite live and netlify link : 
  
  #  Website description : 
   * first create react app instal and react router 
@@ -8,7 +8,7 @@
   * framwork use taiwind and  desy ui
   * desgin hot Toast and react icon
   * server site use env file and jwt token   vercel 
-  *  Features : Actually this site is  resale car related system is used.
+  *  Features : Actually this site is  resale  related system is used.
 
   
 

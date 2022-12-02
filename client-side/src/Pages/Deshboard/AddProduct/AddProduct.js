@@ -5,7 +5,7 @@ import toast from 'react-hot-toast';
 import { useNavigate } from 'react-router-dom';
 
 const AddProduct = () => {
-    const imagebbKey =process.env.REACT_APP_HoastinImagebbkey;
+    const imageHostKey =process.env.REACT_APP_imgbb_key;
     
     
     const {register, formState: { errors }, handleSubmit} = useForm()
@@ -23,7 +23,7 @@ const AddProduct = () => {
         const formData = new FormData();
         formData.append('image', image);
          
-         const url =`https://api.imgbb.com/1/upload?key=${imagebbKey}`
+         const url =`https://api.imgbb.com/1/upload?key=${imageHostKey}`
    
             fetch(url,{
                  method:'POST',
