@@ -4,7 +4,7 @@ const Blog = () => {
     return (
         
     <div className='m-5'>
-      <div className="card card-side bg-indigo-300 w-full shadow-xl">
+      <div className="card card-side bg-orange-200 w-full shadow-xl">
       <div className="card-body">
       <div className=' grid justify-items-start'>
       <h2 className=" font-bold mt-2 text-xl text-justify "> 1 . What are the different ways to manage a state in a React application?</h2>
