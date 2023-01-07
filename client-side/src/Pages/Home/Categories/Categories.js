@@ -15,14 +15,14 @@ const Categories = () => {
               
           });
           const data = await res.json() ;
-          return  data ;
+          return data;
          }
      })
      if(isLoading){
           return <SpennerPage></SpennerPage>
      }
 
-    //  console.log(categories)      
+      console.log(categories)      
     return (
         <div className='mt-9  lg:p-9'>
             <h1 className='text-3xl text-center  text-indigo-400 mb-8'> Choose your  Category  </h1>

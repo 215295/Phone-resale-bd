@@ -3,7 +3,7 @@ import { Link } from 'react-router-dom';
 
 const ProductCard = ({product}) => {
 
-      const { img,productName,sellerName, resalePrice,originalPrice,PostTime, location,years}= product
+      const { img,productName,sellerName, resalePrice,originalPrice,postTime, location,years}= product
     return (
         <div className='mb-5 mt-7'>
         <div className="card card-compact h-[400px]  bg-red-100 flex justify-between  shadow-xl">
@@ -15,8 +15,8 @@ const ProductCard = ({product}) => {
       <p className='ml-7 font-bold'> Location : {location} </p>
       <p className='ml-7 font-bold'>  Resale Price: $ {resalePrice} </p>
       <p className='ml-7  font-bold'> Original Price : $ {originalPrice} </p>
-      <p className='ml-7 font-bold'> Year : {years} </p>
-      <p className='ml-7 font-bold'> PostTime : {PostTime? PostTime:'no time' } </p>
+      <p className='ml-7 font-bold'> Youre : {years} </p>
+      <p className='ml-7 font-bold'> PostTime : {postTime? postTime:'no time' } </p>
        </div>
      
       </div>
