@@ -9,7 +9,7 @@ const AllBuyer = () => {
         queryKey:['buyers'],
         queryFn:async()=>{
 
-            const res = await fetch(' http://localhost:5000/buyers',{
+            const res = await fetch(' https://server-side-215295.vercel.app/buyers',{
               headers: {
                 authorization: `bearer ${localStorage.getItem('accessToken')}`
 
@@ -26,7 +26,7 @@ const AllBuyer = () => {
 
      const buyerDelete=id =>{
 
-        fetch(` http://localhost:5000/buyers/${id}`,{
+        fetch(` https://server-side-215295.vercel.app/buyers/${id}`,{
             method:'DELETE',
          })
          .then(res => res.json())

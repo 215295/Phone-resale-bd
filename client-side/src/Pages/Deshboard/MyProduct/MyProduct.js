@@ -9,7 +9,7 @@ const MyProduct = () => {
       
        useEffect(()=>{
           
-        axios.get('http://localhost:5000/sellerProducts')
+        axios.get('https://server-side-215295.vercel.app/sellerProducts')
           .then(data => {
                return setProducts(data.data)
           });

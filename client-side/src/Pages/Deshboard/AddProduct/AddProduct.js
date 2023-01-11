@@ -53,7 +53,7 @@ const AddProduct = () => {
           
 
 
-            fetch('http://localhost:5000/sellerProducts',{
+            fetch('https://server-side-215295.vercel.app/sellerProducts',{
     
                method:'POST',
     
