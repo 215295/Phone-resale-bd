@@ -9,7 +9,7 @@ function App() {
   return (
     <div>
       
-        <div className='max-w-[1200px]  mx-auto'>
+        <div className='max-w-[1200px]  mx-auto bg-gray-300'>
         <RouterProvider router={router} > 
  
      </RouterProvider>

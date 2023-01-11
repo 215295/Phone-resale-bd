@@ -7,7 +7,7 @@ const Footer = () => {
     return (
       
      
-      <div className=" p-10 bg-black  text-white container ">
+      <div className=" p-10 bg-black  text-white container rounded-t">
 
     
      <footer className="footer pb-5" >

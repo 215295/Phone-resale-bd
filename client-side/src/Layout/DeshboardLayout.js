@@ -28,7 +28,7 @@ const DeshboardLayout = () => {
 
    <div className="drawer-side">
     <label htmlFor="deshboard-drawer" className="drawer-overlay"></label> 
-    <ul className="menu p-4 w-80 bg-base-100 text-base-content">
+    <ul className="menu p-4 w-80 m-2  text-2xl">
        
        {
          isAdmin && <>
@@ -52,7 +52,7 @@ const DeshboardLayout = () => {
            
          {
           isSeller && <> <li><Link to='/deshboard/addProduct' > Add Product</Link></li>
-                       <li><Link to='/deshboard/myProduct' > my Product</Link></li></>
+                       <li><Link to='/deshboard/myProduct' > My Product</Link></li></>
          }
            
     </ul>

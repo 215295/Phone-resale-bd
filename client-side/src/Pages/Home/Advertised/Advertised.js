@@ -5,7 +5,7 @@ import React from 'react';
 const Advertised = ({productsItems}) => {
          
           
-           const { img,ProductName, resalePrice,originalPrice,PostTime, location,year,phone,decrip} =productsItems
+           const { img,ProductName, resalePrice,originalPrice,PostTime, location,year,phone,decripe} =productsItems
  
     return (
         <div>

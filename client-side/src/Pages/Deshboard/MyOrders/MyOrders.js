@@ -34,7 +34,7 @@ const MyOrders = () => {
     return (
         <div>
 
-     <h1 className='text-3xl mt-3'> My Orders </h1>
+     <h1 className=' text-3xl mt-3 text-center'> My Orders </h1>
     <div className="overflow-x-auto">
      <table className="table w-full mt-4 ">
   
