@@ -57,7 +57,7 @@ const Signup = () => {
           
         }
         
-         fetch(' https://server-side-215295.vercel.app/users',{
+         fetch(' http://localhost:5000/users',{
 
           method: 'POST',
           headers:{

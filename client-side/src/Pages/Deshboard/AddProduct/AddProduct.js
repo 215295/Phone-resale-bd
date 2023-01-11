@@ -5,9 +5,9 @@ import toast from 'react-hot-toast';
 import { useNavigate } from 'react-router-dom';
 
 const AddProduct = () => {
-    const imageHostKey =process.env.REACT_APP_imgbb_key;
+    const imageHostKey =process.env.REACT_APP_HoastinImagebbkey;
     
-    
+    console.log(imageHostKey);
     const {register, formState: { errors }, handleSubmit} = useForm()
   
         //    const [refres , setRefres] = useState('')
@@ -32,7 +32,7 @@ const AddProduct = () => {
            .then(res => res.json())
            .then(imaData =>{
             
-            console.log(imaData.data.url)
+            console.log(imaData.data)
             if(imaData.success){
                 const sellerProducts = {
                     sellerName:data.name,
@@ -45,7 +45,7 @@ const AddProduct = () => {
                      phone:data.phone,
                      decripe:data.decripe,
                      img:imaData.data.url,
-                     PostTime:today,
+                     postTime:today,
                      category:data.category
              }
     
@@ -53,7 +53,7 @@ const AddProduct = () => {
           
 
 
-            fetch(' https://server-side-215295.vercel.app/sellerProducts',{
+            fetch('http://localhost:5000/sellerProducts',{
     
                method:'POST',
     
@@ -137,7 +137,7 @@ const AddProduct = () => {
             <label className="label">
             <span className="label-text text-1xl"></span>
             </label>
-            <input type="year" {...register("year" ,{required:true} )} placeholder=' Use Of yaer ' className="input input-bordered w-full max-w-xs" />
+            <input type="year" {...register("year" ,{required:true} )} placeholder=' Use Of year ' className="input input-bordered w-full max-w-xs" />
             </div>
 
             <div className="form-control w-full max-w-xs mr-4">
@@ -180,9 +180,9 @@ const AddProduct = () => {
               <span className="label-text text-1xl"> Choose is Category?</span>
               </label>
               <select type='text' {...register("category" ,{required:true} )}  placeholder='Please Category select'  className="select select-bordered w-full max-w-xs">
-              <option>Symphone</option>
-              <option>Nokia</option>
-              <option> Apple </option>
+              <option>apple brand</option>
+              <option>Nokia Brand</option>
+              <option> Symphony brand </option>
               { errors.category && <p className='text-red-600' >{errors.category.message} </p> }
            </select>
           

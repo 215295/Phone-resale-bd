@@ -37,7 +37,7 @@ const ProductBooking = ({productAllData,cancalModal}) => {
       }
 
       console.log(booking)
-      fetch(' https://server-side-215295.vercel.app/bookings',{
+      fetch(' http://localhost:5000/bookings',{
 
         method: 'POST',
         headers:{

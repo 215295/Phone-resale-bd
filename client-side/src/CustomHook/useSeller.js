@@ -9,7 +9,7 @@ const useSeller = (email)=>{
 
         if(email){
 
-           fetch(` https://server-side-215295.vercel.app/users/seller/${email}`)
+           fetch(` http://localhost:5000/users/seller/${email}`)
            .then(res => res.json())
            .then(data => {
                 

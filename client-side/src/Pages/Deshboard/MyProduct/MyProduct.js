@@ -9,7 +9,7 @@ const MyProduct = () => {
       
        useEffect(()=>{
           
-        axios.get(' https://server-side-215295.vercel.app/sellerProducts')
+        axios.get('http://localhost:5000/sellerProducts')
           .then(data => {
                return setProducts(data.data)
           });
@@ -18,7 +18,7 @@ const MyProduct = () => {
       
     return (
         <div>
-               <h1 className='text-2xl'> My product  </h1>
+               <h1 className='text-2xl'> my product  </h1>
 
           <div className='grid grid-cols-1   lg:grid-cols-2  gap-5' >
           {

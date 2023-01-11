@@ -9,11 +9,16 @@ const AllBuyer = () => {
         queryKey:['buyers'],
         queryFn:async()=>{
 
-            const res = await fetch(' https://server-side-215295.vercel.app/buyers',{
+            const res = await fetch(' http://localhost:5000/buyers',{
+              headers: {
+                authorization: `bearer ${localStorage.getItem('accessToken')}`
+
+            }
 
              
             })
             const data = await res.json()
+            console.log(data)
             return data ;
         }
 })
@@ -21,7 +26,7 @@ const AllBuyer = () => {
 
      const buyerDelete=id =>{
 
-        fetch(` https://server-side-215295.vercel.app/buyers/${id}`,{
+        fetch(` http://localhost:5000/buyers/${id}`,{
             method:'DELETE',
          })
          .then(res => res.json())

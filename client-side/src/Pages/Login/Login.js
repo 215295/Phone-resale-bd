@@ -54,7 +54,7 @@ const Login = () => {
                 email: user?.email,
                 role: 'buyer'
             };
-            fetch(' https://server-side-215295.vercel.app/users', {
+            fetch(' http://localhost:5000/users', {
                 method: 'POST',
                 headers: {
                     'content-type': 'application/json'

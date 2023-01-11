@@ -9,7 +9,7 @@ const MyOrders = () => {
     const {user,loding}=useContext(AuthContext)
   
   
-    const url = ` https://server-side-215295.vercel.app/bookings?email=${user?.email}`
+    const url = `http://localhost:5000/bookings?email=${user?.email}`
 
     const {data:bookings = [] ,refetch } = useQuery({
   
@@ -32,7 +32,7 @@ const MyOrders = () => {
     
        
     return (
-        <div className=''>
+        <div>
 
      <h1 className='text-3xl mt-3'> My Orders </h1>
     <div className="overflow-x-auto">

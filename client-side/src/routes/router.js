@@ -24,14 +24,14 @@ export const router = createBrowserRouter([
      children:[ 
         {path:'/', element:<Home></Home> },
         {path:'/home/:id', element:<Home></Home> ,
-        loader:({params})=> fetch(` https://server-side-215295.vercel.app/sellerProducts/${params.id}`)
+        loader:({params})=> fetch(` http://localhost:5000/sellerProducts/${params.id}`)
       },
           
         {path:'/login', element:<Login></Login>},
         {path:'/signup', element:<Signup></Signup>},
 
         {path:'/category/:id', element:<Category></Category>  ,
-        loader:({params})=> fetch(` https://server-side-215295.vercel.app/categories/${params.id}`)
+        loader:({params})=> fetch(` http://localhost:5000/categories/${params.id}`)
      
       },
 
@@ -53,7 +53,7 @@ export const router = createBrowserRouter([
       
      {path:'/deshboard/payments/:id', element:  <Payments></Payments>  ,
      
-     loader:({params})=> fetch(` https://server-side-215295.vercel.app/bookings/${params.id}`)  
+     loader:({params})=> fetch(` http://localhost:5000/bookings/${params.id}`)  
     }
     ] }
 ])
