@@ -20,10 +20,15 @@ const ProductCard = ({product}) => {
        </div>
      
       </div>
-          <div className='flex mb-8 ml-3 '>
+       <div className='flex '>
+        <div className=' mb-8 ml-3 '>
           <button className="btn btn-sm btn-primary "> <Link to={`/home/${product}`} >  Advertise</Link> </button>
          
           </div>
+          <div className=' mb-8 pl-20 '>
+          <button className="btn btn-xs  btn-error"> <Link to={`/home/${product}`} > Delete </Link></button>
+          </div>
+       </div>
     </div>
   
  </div>
