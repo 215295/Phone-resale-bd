@@ -41,7 +41,13 @@ const AllBuyer = () => {
          })
      }
 
-  
+     const handlar = (id)=>{
+
+      const agrree = window.confirm('are you sure ai email verify korben')
+     
+      console.log(agrree)
+}
+
 
     return (
         <div>
@@ -66,7 +72,7 @@ const AllBuyer = () => {
             <th> {i+1} </th>
             <td>{buyer.name} </td>
             <td>{buyer.email}</td>
-            <td> verify </td>
+            <td className='text-white'> <button className=' btn  btn-xs btn-primary' onClick={()=>handlar(buyer._id)} >   Verify </button> </td>
             <td className='text-white'> <button className=' btn  btn-xs btn-primary' onClick={()=>buyerDelete(buyer._id)} >  Delete </button> </td>
             <td> 
                     
