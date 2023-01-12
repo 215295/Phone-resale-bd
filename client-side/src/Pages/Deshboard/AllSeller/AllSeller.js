@@ -30,7 +30,7 @@ const AllSeller = () => {
                
                   if(data.acknowledged){
 
-                       toast.success('delete duyer Successfully')
+                       toast.success('delete  Successfully')
                        refetch()
                   }
                    
@@ -39,9 +39,9 @@ const AllSeller = () => {
        }
 
 
-       const handdlar = (id)=>{
+       const handlar = (id)=>{
 
-              const agrree = window.confirm('are you sure ai email veify korben')
+              const agrree = window.confirm('are you sure ai email verify korben')
              
               console.log(agrree)
        }
@@ -67,8 +67,8 @@ const AllSeller = () => {
             <th> {i+1} </th>
             <td>{seller.name} </td>
             <td>{seller.email}</td>
-            <td>  Verify </td>
-          
+            
+            <td className='text-white'> <button className=' btn  btn-xs btn-primary' onClick={()=>handlar(seller._id)} >   Verify </button> </td>
             <td className='text-white'> <button className=' btn  btn-xs btn-primary' onClick={()=>handlarDelete(seller._id)} >  Delete </button> </td>
             <td> 
                     
